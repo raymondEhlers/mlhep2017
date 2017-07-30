@@ -3,6 +3,9 @@
 [![Join the chat at https://gitter.im/yandexdataschool/mlhep2017](https://badges.gitter.im/yandexdataschool/mlhep2017.svg)](https://gitter.im/yandexdataschool/mlhep2017?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 MLHEP 2017 slides &amp; seminars
 
+## Notes on using the repo (RJE)
+
+Be sure to activate the virtualenv!
 
 ## Running this repository
 
