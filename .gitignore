@@ -1,2 +1,10 @@
 .DS_Store
 .ipynb_checkpoints/
+tboard/
+
+*.pyc
+*.tsv
+*.gz
+*.jpg
+# Additional csvs that I have generated
+*.csv
