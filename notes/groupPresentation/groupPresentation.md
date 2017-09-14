@@ -213,7 +213,7 @@ graphics: true
     - Random Forest = Bagging many decision trees which were learned with a random subset of features
 - Particular boosting implementations have different choices for various parameters.
     - Generically referred to as BDTs.
-- BDTs are frequently used for tagging and triggering
+- BDTs are frequently used for tagging and triggering.
 
 ## Neural Nets^[Lecture 5]
 
@@ -372,7 +372,7 @@ models.append(TensorFlowDNNClassifier(
 ```python
 for model in models:
     # Fit the model
-    model.fit(X_train, y_train)
+    model.fit(X_train, Y_train)
     # Predict the probability of the test set
     prediction = model.predict_proba(X_test)
 
@@ -409,11 +409,11 @@ for model in models:
 - TensorFlow (TF)
     - Developed by Google.
     - Can be used directly, but generally more difficult!
-- Best NN package is less settled, but TF is good.
+- Best NN package is less settled, but TF is a good option.
 
 ## Selecting the Best Algorithm
 
-- Although there are some guidelines for selecting algorithms, you generally can't make recommendations
+- Although there are some guidelines for selecting algorithms, it's very difficult to make general recommendations.
     - There are frequently many factors that determine which algorithm is best
 - Fortunately, sklearn makes testing many algorithms very easy!
     - Just test many of them as in the example and it should get you going in the right direction.
